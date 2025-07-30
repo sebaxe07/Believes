@@ -1,0 +1,4 @@
+# .editorconfig file for C# formatting
+[*.cs]
+# Set K&R style for braces
+csharp_new_line_before_open_brace = none
