@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07138511eec4fc2ae4753a7a9354bf8, type: 3}
+  m_Name: AgileAttack
+  m_EditorClassIdentifier: 
+  punchDamageAmount: 334
+  grapplingDamageAmount: 500
+  grapplingMaxDistance: 50
+  grapplingSpinDamageAmount: 1000
+  grapplingSpinRadius: 5
+  grapplingSpinSpeed: 900
+  grapplingSpinRotationTime: 90
+  punchDamageAmountEnemy: 167
+  grapplingShootingDamage: 250
+  grapplingShootingSpeed: 40
+  grapplingShootingCooldown: 0
+  whatIsGrappable:
+    serializedVersion: 2
+    m_Bits: 392
+  quality: 500
+  damper: 14
+  strength: 800
+  velocity: 15
+  waveCount: 3
+  waveHeight: 10
+  affectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0017433167
+      value: 0
+      inSlope: 6.6263556
+      outSlope: 6.6263556
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.034030296
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  draggableSpeed: 20
+  draggableMaxDistance: 100
+  draggableSafeOffset: 3
+  anchorTime: 10
+  anchorMaxDistance: 50
+  lightAttackStaminaCost: 0
+  heavyAttackStaminaCost: 50
+  specialAttackStaminaCost: 200
+  lightAttackDuration: 2.2
+  specialAttackCooldown: 1
+  specialAttackDuration: 1
+  heavyAttackCooldown: 0.5
+  lightAttackCooldown: 0.1
+  lightAttackCooldownEnemy: 1
+  heavyAttackCooldownEnemy: 1
+  lightPrepareAttackSound:
+    ID: 1073741868
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  lightAttackSound:
+    ID: 1073741854
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  specialAttackSound:
+    ID: 1073741857
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  jumpSound:
+    ID: 1073741856
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  grapplingShootSound:
+    ID: 1073741862
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  grapplingReelSound:
+    ID: 1073741863
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  grapplingHitSound:
+    ID: 1073741864
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  steps:
+    ID: 1073741855
+    _sourceAsset: {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}

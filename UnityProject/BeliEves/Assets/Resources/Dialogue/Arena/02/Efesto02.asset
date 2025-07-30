@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: Efesto02
+  m_EditorClassIdentifier: 
+  speakerName: Efesto [istanza C18]
+  speakerImageReference: {fileID: 0}
+  paragraph:
+  - Now, we begin your training.
+  - Souls and bionic bodies are two opposing pieces of the same puzzle, destined
+    to fit together.
+  - Humans, in their pursuit of progress, built these bionic bodies to be flawless
+    instruments of efficiency. Stronger than flesh, impervious to time, and unwavering
+    in their tasks. But this perfection soon revealed its flaw rigidity. They could
+    not adapt, could not think beyond their programming.
+  - So, humans sought to correct their mistake. They engineered something extraordinary,
+    something they believed could transcend the limitations of the mechanical. They
+    created souls. Not as mere enhancements but as the missing essence fragments
+    of their own humanity, imbued with creativity, intuition, and emotional intelligence.
+  - 'Bionic bodies are marvels of engineering but bound by their rigidity. Each was
+    designed with precision for a singular purpose: strength, speed, endurance, or
+    utility.'
+  - Alone, a robot is a machine, and a soul is but a whisper in the wind. Together,
+    you complete each other, combining your intelligence and emotion with their might
+    and precision.
+  - "To control a robot, you must simply dash into. The moment your essence touches
+    the robot\u2019s core, you will override its programming, becoming its new mind."

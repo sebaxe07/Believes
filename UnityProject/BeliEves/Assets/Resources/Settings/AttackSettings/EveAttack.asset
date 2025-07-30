@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d5c0508d9048f1967efad9c58c860d, type: 3}
+  m_Name: EveAttack
+  m_EditorClassIdentifier: 
+  dashForceMagnitude: 0.9
+  dashDistance: 25
+  lightAttackCoolDownTime: 0.5
+  dashLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  specialAttackRate: 0.3
+  lightAttackStaminaCost: 0
+  heavyAttackStaminaCost: 100
+  specialAttackStaminaCost: 100
+  lightAttackSound:
+    ID: 1073741841
+    _sourceAsset: {fileID: 11400000, guid: b58e4d49289d26942966ed2d2874ddc7, type: 2}
+  Up:
+    ID: 1073741842
+    _sourceAsset: {fileID: 11400000, guid: b58e4d49289d26942966ed2d2874ddc7, type: 2}
+  Down:
+    ID: 1073741843
+    _sourceAsset: {fileID: 11400000, guid: b58e4d49289d26942966ed2d2874ddc7, type: 2}
+  Flying:
+    ID: 1073741844
+    _sourceAsset: {fileID: 11400000, guid: b58e4d49289d26942966ed2d2874ddc7, type: 2}
+  specialAttackSound:
+    ID: 0
+    _sourceAsset: {fileID: 0}

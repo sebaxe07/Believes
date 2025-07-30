@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: ArenaPresentation
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: 4c005762bd310254eb15fa88143626d2, type: 2}
+  - {fileID: 11400000, guid: 596c71fdd8f65c542905a68074db9ef6, type: 2}
+  - {fileID: 11400000, guid: b124df2a1212e1147b532454f2151566, type: 2}
+  - {fileID: 11400000, guid: 3f5c42549df5d6041a5529db902b55b1, type: 2}
+  - {fileID: 11400000, guid: 7119d37ad0f7d494094d7811fc00a70f, type: 2}
+  - {fileID: 11400000, guid: a25ce8e63864c644d8b6d530e4322a84, type: 2}
+  - {fileID: 11400000, guid: 02c08590cd32193449bf76b58a6e1455, type: 2}
+  - {fileID: 11400000, guid: 8ed5cffc032bad1458ed552442dbb03a, type: 2}
+  - {fileID: 11400000, guid: e48f21ef3e3ecf84da80a5decfacf060, type: 2}

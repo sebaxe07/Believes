@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ab9a5469d53d54097f703211bd8369, type: 3}
+  m_Name: BroAudioData
+  m_EditorClassIdentifier: 
+  _assets:
+  - {fileID: 11400000, guid: da88108ee7ea4e449b39b474fefd1c04, type: 2}
+  - {fileID: 11400000, guid: 608b899f033f3dc4c9d69bbe12c898ab, type: 2}
+  - {fileID: 11400000, guid: b58e4d49289d26942966ed2d2874ddc7, type: 2}
+  - {fileID: 11400000, guid: 69bf6376f0286534088df99c4851daed, type: 2}
+  - {fileID: 11400000, guid: 36e7221b3e1b9e9479819ecdfb7d63f0, type: 2}
+  - {fileID: 11400000, guid: 28d8ac91020a97c45921f164a8c33fe1, type: 2}
+  - {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  - {fileID: 11400000, guid: a061e98bf9fcf0b4d951da9198e7d8d7, type: 2}
+  - {fileID: 11400000, guid: 1cac402577ff62142b37d5baff0f15bd, type: 2}

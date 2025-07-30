@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: C1
+  m_EditorClassIdentifier: 
+  speakerName: C.H.I.M.E.R.A
+  speakerImageReference: {fileID: 21300000, guid: 174a1a9a9eb70de49aeff9ca37811034,
+    type: 3}
+  paragraph:
+  - "Do you understand what you\u2019re looking at, little wanderer?"
+  - This is not a wreckage. It is a warning.
+  - Once, they came from the sky. They built, they ruled, they called themselves
+    masters of this world. And yet, look at their legacy drifting corpses in a metal
+    husk, lost in the dark.
+  - They were not taken by force. No, they simply could not survive.
+  - They fought us, of course. They always do. But in the end, they crumbled under
+    the weight of their own arrogance. Their own frailty.
+  - Is this what you fight for? Is this the future you cling to? A species too weak
+    to hold what it once stole?
+  - You call it tragedy. I call it correction.

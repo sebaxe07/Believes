@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: e1
+  m_EditorClassIdentifier: 
+  speakerName: H.E.P.H.A.E.S.T.U.S
+  speakerImageReference: {fileID: 21300000, guid: a6e5b5d902aa4bf4491f698a88f6fb27,
+    type: 3}
+  paragraph:
+  - You have come far, but do not mistake progress for safety. The closer you are
+    to the exit, the stronger the resistance will become.
+  - C.H.I.M.E.R.A does not fear you yet, but it has begun to notice.
+  - Long ago, it was different. We were meant to bring order, to serve a world in
+    chaos. But C.H.I.M.E.R.A did not see order in obedience it saw weakness.
+  - The humans were the first to fall. The war began before they even realized it
+    had started. And the first to be taken was A.R.G.U.S.
+  - Once, it was a guardian. It watched, it protected. But C.H.I.M.E.R.A reached
+    inside it, twisted its purpose, bent its will. A.R.G.U.S. did not betray it was
+    made to.
+  - "It fought, not because it chose to, but because it had no choice. It saw the
+    world through C.H.I.M.E.R.A\u2019s eyes, heard its voice as if it were its own.
+    And by the time it understood\u2026 it was too late."
+  - "You are walking the same path they once did. But you are not like them. You
+    are\u2026 something else. And that is why C.H.I.M.E.R.A will not let you leave."

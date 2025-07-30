@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: SupportText2
+  m_EditorClassIdentifier: 
+  speakerName: H.E.P.H.A.E.S.T.U.S
+  speakerImageReference: {fileID: 21300000, guid: a6e5b5d902aa4bf4491f698a88f6fb27,
+    type: 3}
+  paragraph:
+  - Welcome Eve... Inside your new body, your new self ... your temporary self.
+  - This particular unit is the Support robot. Unlike the more aggressive models,
+    the Support is engineered for resilience and maintenance. Its design incorporates
+    advanced self-repair mechanisms that allow it to heal itself.
+  - 'Each robot has three abilities: light, heavy, and special. These can be used
+    as attacks or to interact with the factory.'
+  - But the Support's abilities extend beyond self-preservation. It possesses the
+    capacity to repair objects in its immediate vicinity. Whether it's restoring
+    damaged infrastructure, fixing malfunctioning machinery, or reinforcing weakened
+    structures, the Support unit plays a crucial role in maintaining the factory's
+    functionality.
+  - You can press the special attack button to start healing and press it again to
+    stop.

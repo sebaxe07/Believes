@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54cf97f95c790094cba119f79107ade2, type: 3}
+  m_Name: SupportAttack
+  m_EditorClassIdentifier: 
+  lightAttackDamage: 500
+  lightAttackCooldown: 0.1
+  lightAttackDuration: 0.5
+  lightAttackStaminaCost: 0
+  heavyAttackDamage: 750
+  heavyAttackStunDuration: 10
+  heavyAttackCooldown: 0.5
+  heavyAttackDuration: 0.5
+  heavyAttackStaminaCost: 50
+  specialAttackHealRate: 50
+  specialAttackRate: 1
+  specialAttackCooldown: 0.5
+  specialAttackStaminaCost: 50
+  lightAttackDamageEnemy: 250
+  heavyAttackDamageEnemy: 375
+  lightAttackCooldownEnemy: 1
+  heavyAttackStunEnemy: 0.5
+  heavyAttackCooldownEnemy: 5
+  lightPrepareAttackSound:
+    ID: 1073741867
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  lightAttackSound:
+    ID: 1073741849
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  heavyAttackSound:
+    ID: 1073741850
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  specialAttackSound:
+    ID: 1073741851
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  jumpSound:
+    ID: 1073741853
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}
+  steps:
+    ID: 1073741852
+    _sourceAsset: {fileID: 11400000, guid: 71dcecf25ccfad8488ad57ea71ba7629, type: 2}

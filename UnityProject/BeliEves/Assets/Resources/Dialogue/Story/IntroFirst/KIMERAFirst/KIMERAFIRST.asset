@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: KIMERAFIRST
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: 0758a0fa14d73d343aefb125a1d50ae0, type: 2}
+  - {fileID: 11400000, guid: 166d3e814ac14134aa7e0691c2dda9e2, type: 2}
+  - {fileID: 11400000, guid: 7c661396d3e8581408600f46d0a9b1fc, type: 2}
+  - {fileID: 11400000, guid: 763135703a40ca44db731cedb623e323, type: 2}
+  - {fileID: 11400000, guid: 362a9266add7e604c89c38aa2ffc5630, type: 2}
+  - {fileID: 11400000, guid: 556cd13e603e1f442929f611550033ac, type: 2}
+  - {fileID: 11400000, guid: 5e4189eaef4d39747bbf2594545f516a, type: 2}
+  - {fileID: 11400000, guid: c4912cba45614ff4885a556954e00aef, type: 2}
+  - {fileID: 11400000, guid: bee09978985e6f64087f9b9990e144e6, type: 2}
+  - {fileID: 11400000, guid: 904fe2777ff05b64e94551148eaf1496, type: 2}
+  - {fileID: 11400000, guid: 19ae1988406e9e14986a4072427b64ce, type: 2}
+  - {fileID: 11400000, guid: af360bcf19442a64dbf0abf055bb2c11, type: 2}
+  - {fileID: 11400000, guid: c875c32120b21634d88fcabb51e9a28a, type: 2}

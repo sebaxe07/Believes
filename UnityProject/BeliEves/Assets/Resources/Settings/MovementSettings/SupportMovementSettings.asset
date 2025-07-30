@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b396d7d71ec94382a9e95cc28c1999d2, type: 3}
+  m_Name: SupportMovementSettings
+  m_EditorClassIdentifier: 
+  MaxStableMoveSpeed: 7
+  StableMovementSharpness: 15
+  OrientationSharpness: 10
+  RunSpeedUpFactor: 2
+  IgnoredColliders: []
+  Gravity: {x: 0, y: -30, z: 0}
+  BonusOrientationSharpness: 10
+  MaxAirMoveSpeed: 15
+  AirAccelerationSpeed: 15
+  Drag: 1.5
+  JumpUpSpeed: 9
+  JumpScalableForwardSpeed: 9
+  JumpPostGroundingGraceTime: 0
+  JumpPreGroundingGraceTime: 0
+  MaxStepHeight: 1
+  MinRequireStepDepth: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: Agile
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: c6466681f553d9e4ba0c7f63d8d81b86, type: 2}
+  - {fileID: 11400000, guid: bfb6268c42eb1504b8d527167878336f, type: 2}
+  - {fileID: 11400000, guid: b39c8ecb2a5794541b9225087a70b754, type: 2}
+  - {fileID: 11400000, guid: 84edce81f59ba9240a117ab2a408c88b, type: 2}
+  - {fileID: 11400000, guid: 54679f34f77eb3b48a934f2d2804e2b1, type: 2}
+  - {fileID: 11400000, guid: aa20a404bec006d4ea5ba98d16df4b2b, type: 2}

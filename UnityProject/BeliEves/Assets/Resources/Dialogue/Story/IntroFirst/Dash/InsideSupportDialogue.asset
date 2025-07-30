@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: InsideSupportDialogue
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: 7d7ef67ed0f8240448d22b7d96eec3a1, type: 2}
+  - {fileID: 11400000, guid: 3a25d09d75845954a898cf794a848639, type: 2}
+  - {fileID: 11400000, guid: 3ca77dbb50fc1c1408d70733d95ecd55, type: 2}
+  - {fileID: 11400000, guid: bf907c7f56f5de44586db6051ef0a66a, type: 2}
+  - {fileID: 11400000, guid: e42ef4bb17f7524438e7d0f3d29c7fcd, type: 2}
+  - {fileID: 11400000, guid: 606e05c259b32a04fb838d7289df1ffc, type: 2}
+  - {fileID: 11400000, guid: 805899412f39543469ccb320c16cddfa, type: 2}
+  - {fileID: 11400000, guid: 41a1259266c03b246b98d7c4ae11d20a, type: 2}

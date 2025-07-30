@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: JumpIntroduction
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: 8058c373633f2be479500452e95492c4, type: 2}
+  - {fileID: 11400000, guid: cd99526b53703e6448f440f2d1118ea5, type: 2}
+  - {fileID: 11400000, guid: 0cc47cfb2680cd446b5d91f3b3b057f1, type: 2}
+  - {fileID: 11400000, guid: 766f4b1ce1b9f0b428c4f033de8db257, type: 2}

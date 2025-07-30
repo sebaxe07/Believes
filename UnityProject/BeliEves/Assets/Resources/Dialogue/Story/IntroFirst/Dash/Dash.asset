@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb593b200d84504ac5d179aac1aaaf3, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - {fileID: 11400000, guid: 49e8147078d16464eb71190ade70cb6f, type: 2}
+  - {fileID: 11400000, guid: d225812119aac7c4087bbf05d28ecda5, type: 2}
+  - {fileID: 11400000, guid: a8acb7b3d0670914794a0b34eb5f3866, type: 2}
+  - {fileID: 11400000, guid: 41a1259266c03b246b98d7c4ae11d20a, type: 2}

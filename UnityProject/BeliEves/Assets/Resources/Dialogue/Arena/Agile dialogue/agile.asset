@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: agile
+  m_EditorClassIdentifier: 
+  speakerName: H.E.P.H.A.E.S.T.U.S
+  speakerImageReference: {fileID: 21300000, guid: a6e5b5d902aa4bf4491f698a88f6fb27,
+    type: 3}
+  paragraph:
+  - "This particular robot excels in speed and agility. Unlike the heavier models,
+    it\u2019s built to move quickly and nimbly, allowing you to navigate the factory
+    with ease. Its most notable feature is its grappling hook\u2014a versatile tool
+    that gives it incredible mobility. You can use this hook to climb, reach higher
+    platforms, or traverse the factory\u2019s many obstacles"
+  - "But the grappling hook isn\u2019t limited to just climbing. You can also use
+    it to interact with the environment in unique ways. For example, you can pull
+    distant objects towards you."

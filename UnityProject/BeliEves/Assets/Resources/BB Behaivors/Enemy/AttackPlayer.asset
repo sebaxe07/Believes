@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a7c8ca992f915438a96c2077353778, type: 3}
+  m_Name: AttackPlayer
+  m_EditorClassIdentifier: 
+  brickName: Assets/Resources/BB Behaivors/Enemy/AttackPlayer.asset
+  xml: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<BehaviorBricks xmlns:ref=\"urn:padaone\"
+    version=\"1.0\">\r\n  <BehaviorTree id=\"0\" />\r\n  <runtimeInfo>\r\n    <BehaviorTree
+    id=\"0\" guid=\"95829147b1e70e3458ced723db54e730\" nextId=\"18\">\r\n      <root>\r\n       
+    <ParallelNode id=\"16\" />\r\n      </root>\r\n      <inputParams>\r\n       
+    <inputValues>\r\n          <entry name=\"foundGameObject\" type=\"UnityEngine.GameObject\"
+    isBlackboard=\"False\" />\r\n          <entry name=\"enemyScript\" type=\"Npc.Enemy\"
+    isBlackboard=\"False\" />\r\n        </inputValues>\r\n      </inputParams>\r\n     
+    <outputParams />\r\n      <localParams />\r\n    </BehaviorTree>\r\n    <ParallelNode
+    id=\"16\" policy=\"AndPolicy\">\r\n      <children>\r\n        <elem>\r\n         
+    <RepeatDecorator id=\"8\" />\r\n        </elem>\r\n        <elem>\r\n         
+    <RepeatDecorator id=\"17\" />\r\n        </elem>\r\n      </children>\r\n     
+    <inputParams />\r\n      <outputParams />\r\n      <localParams />\r\n    </ParallelNode>\r\n   
+    <RepeatDecorator id=\"8\" loops=\"-1\" policy=\"ContinueWhenChildFails\">\r\n     
+    <child>\r\n        <ActionNode id=\"14\" />\r\n      </child>\r\n      <inputParams
+    />\r\n      <outputParams />\r\n      <localParams />\r\n    </RepeatDecorator>\r\n   
+    <RepeatDecorator id=\"17\" loops=\"-1\" policy=\"ContinueWhenChildFails\">\r\n     
+    <child>\r\n        <SequenceNode id=\"12\" />\r\n      </child>\r\n      <inputParams
+    />\r\n      <outputParams />\r\n      <localParams />\r\n    </RepeatDecorator>\r\n   
+    <ActionNode id=\"14\" action=\"Enemy/SmoothLook\">\r\n      <inputParams>\r\n       
+    <inputValues>\r\n          <entry name=\"target\" type=\"UnityEngine.GameObject\"
+    isBlackboard=\"True\" blackboard=\"foundGameObject\" />\r\n        </inputValues>\r\n     
+    </inputParams>\r\n      <outputParams />\r\n      <localParams />\r\n    </ActionNode>\r\n   
+    <SequenceNode id=\"12\">\r\n      <children>\r\n        <elem>\r\n          <RandomSelectorNode
+    id=\"5\" />\r\n        </elem>\r\n        <elem>\r\n          <ActionNode id=\"11\"
+    />\r\n        </elem>\r\n      </children>\r\n      <inputParams />\r\n     
+    <outputParams />\r\n      <localParams />\r\n    </SequenceNode>\r\n    <RandomSelectorNode
+    id=\"5\">\r\n      <probs>\r\n        <elem>1</elem>\r\n        <elem>1</elem>\r\n     
+    </probs>\r\n      <children>\r\n        <elem>\r\n          <ActionNode id=\"7\"
+    />\r\n        </elem>\r\n        <elem>\r\n          <ActionNode id=\"6\" />\r\n       
+    </elem>\r\n      </children>\r\n      <inputParams />\r\n      <outputParams
+    />\r\n      <localParams />\r\n    </RandomSelectorNode>\r\n    <ActionNode id=\"11\"
+    action=\"Basic/WaitForSeconds\">\r\n      <inputParams>\r\n        <inputValues>\r\n         
+    <entry name=\"seconds\" type=\"System.Single\" isBlackboard=\"False\" value=\"1\"
+    />\r\n        </inputValues>\r\n      </inputParams>\r\n      <outputParams />\r\n     
+    <localParams />\r\n    </ActionNode>\r\n    <ActionNode id=\"7\" action=\"Enemy/LightAttackPlayer\">\r\n     
+    <inputParams>\r\n        <inputValues>\r\n          <entry name=\"foundGameObject\"
+    type=\"UnityEngine.GameObject\" isBlackboard=\"True\" blackboard=\"foundGameObject\"
+    />\r\n          <entry name=\"enemyScript\" type=\"Npc.Enemy\" isBlackboard=\"True\"
+    blackboard=\"enemyScript\" />\r\n        </inputValues>\r\n      </inputParams>\r\n     
+    <outputParams />\r\n      <localParams />\r\n    </ActionNode>\r\n    <ActionNode
+    id=\"6\" action=\"Enemy/HeavyAttackPlayer\">\r\n      <inputParams>\r\n       
+    <inputValues>\r\n          <entry name=\"foundGameObject\" type=\"UnityEngine.GameObject\"
+    isBlackboard=\"True\" blackboard=\"foundGameObject\" />\r\n          <entry name=\"enemyScript\"
+    type=\"Npc.Enemy\" isBlackboard=\"True\" blackboard=\"enemyScript\" />\r\n       
+    </inputValues>\r\n      </inputParams>\r\n      <outputParams />\r\n      <localParams
+    />\r\n    </ActionNode>\r\n  </runtimeInfo>\r\n  <editorInfo>\r\n    <BehaviorTree
+    id=\"0\" _name=\"AttackPlayer\" _description=\"\" _removeIfClosed=\"False\">\r\n     
+    <_rootList>\r\n        <elem>\r\n          <RandomSelectorNode id=\"5\" />\r\n       
+    </elem>\r\n        <elem>\r\n          <ActionNode id=\"6\" />\r\n        </elem>\r\n       
+    <elem>\r\n          <ActionNode id=\"7\" />\r\n        </elem>\r\n        <elem>\r\n         
+    <RepeatDecorator id=\"8\" />\r\n        </elem>\r\n        <elem>\r\n         
+    <ActionNode id=\"11\" />\r\n        </elem>\r\n        <elem>\r\n          <SequenceNode
+    id=\"12\" />\r\n        </elem>\r\n        <elem>\r\n          <ActionNode id=\"14\"
+    />\r\n        </elem>\r\n        <elem>\r\n          <ParallelNode id=\"16\"
+    />\r\n        </elem>\r\n        <elem>\r\n          <RepeatDecorator id=\"17\"
+    />\r\n        </elem>\r\n      </_rootList>\r\n      <_nodes>\r\n        <nodes>\r\n         
+    <ActionNode id=\"7\" />\r\n          <ActionNode id=\"6\" />\r\n          <RandomSelectorNode
+    id=\"5\" />\r\n          <RepeatDecorator id=\"8\" />\r\n          <SequenceNode
+    id=\"12\" />\r\n          <ActionNode id=\"11\" />\r\n          <ActionNode id=\"14\"
+    />\r\n          <ParallelNode id=\"16\" />\r\n          <RepeatDecorator id=\"17\"
+    />\r\n        </nodes>\r\n      </_nodes>\r\n    </BehaviorTree>\r\n    <ParallelNode
+    id=\"16\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"375.8333 144.1667\" name=\"Parallel\" description=\"Executes all its
+    children in parallel until all of them are successful\" cardinality=\"-1\" hasParent=\"False\">\r\n         
+    <BehaviorTree id=\"0\" />\r\n          <ParallelNode id=\"16\" />\r\n       
+    </data>\r\n      </_data>\r\n    </ParallelNode>\r\n    <RepeatDecorator id=\"8\">\r\n     
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"264.0164
+    296.1667\" name=\"Repeat\" description=\"Repeats the execution of its child node\"
+    cardinality=\"1\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
+    <ParallelNode id=\"16\" />\r\n          <ParallelNode id=\"16\" />\r\n       
+    </data>\r\n      </_data>\r\n    </RepeatDecorator>\r\n    <RepeatDecorator id=\"17\">\r\n     
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"489.5833
+    302.9167\" name=\"Repeat\" description=\"Repeats the execution of its child node\"
+    cardinality=\"1\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
+    <RepeatDecorator id=\"17\" />\r\n          <ParallelNode id=\"16\" />\r\n       
+    </data>\r\n      </_data>\r\n    </RepeatDecorator>\r\n    <ActionNode id=\"14\">\r\n     
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"184.5833
+    495.4167\" name=\"Enemy/SmoothLook\" description=\"Rotates the transform so the
+    forward vector of the game object points at target's current position\" cardinality=\"0\"
+    hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ActionNode
+    id=\"14\" />\r\n          <RepeatDecorator id=\"8\" />\r\n        </data>\r\n     
+    </_data>\r\n    </ActionNode>\r\n    <SequenceNode id=\"12\">\r\n      <_data>\r\n       
+    <data breakpoint=\"0\" selected=\"False\" position=\"598.3333 417.9167\" name=\"Sequence\"
+    description=\"Executes all its children in sequence until all of them are successful\"
+    cardinality=\"-1\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
+    <SequenceNode id=\"12\" />\r\n          <RepeatDecorator id=\"17\" />\r\n       
+    </data>\r\n      </_data>\r\n    </SequenceNode>\r\n    <RandomSelectorNode id=\"5\">\r\n     
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"532.2663
+    573.9167\" name=\"Random Selector\" description=\"Selects randomly one of its
+    children\" cardinality=\"-1\" hasParent=\"True\">\r\n          <BehaviorTree
+    id=\"0\" />\r\n          <SequenceNode id=\"12\" />\r\n          <SequenceNode
+    id=\"12\" />\r\n        </data>\r\n      </_data>\r\n    </RandomSelectorNode>\r\n   
+    <ActionNode id=\"11\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"835.8333 576.6667\" name=\"Basic/WaitForSeconds\" description=\"Action
+    that success after a period of time.\" cardinality=\"0\" hasParent=\"True\">\r\n         
+    <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"11\" />\r\n         
+    <SequenceNode id=\"12\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n   
+    <ActionNode id=\"7\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"291.5164 799.1672\" name=\"Enemy/LightAttackPlayer\" description=\"Use
+    the light attack on the player\" cardinality=\"0\" hasParent=\"True\">\r\n         
+    <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"7\" />\r\n          <RandomSelectorNode
+    id=\"5\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n   
+    <ActionNode id=\"6\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"617.5163 812.9172\" name=\"Enemy/HeavyAttackPlayer\" description=\"Use
+    the heavy attack on the player\" cardinality=\"0\" hasParent=\"True\">\r\n         
+    <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"6\" />\r\n          <RandomSelectorNode
+    id=\"5\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
+  zoom: 0.8
+  subslist: []
+  _guid: 95829147b1e70e3458ced723db54e730

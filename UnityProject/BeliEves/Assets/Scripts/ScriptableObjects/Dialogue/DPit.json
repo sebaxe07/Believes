@@ -1,0 +1,249 @@
+{
+    "introduction_exit_robot": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "This form is useless. Broken, fragmented... it cannot endure. You must abandon it. Only then can you move forward."
+      },
+      {
+        "speaker": "Eve",
+        "text": "Who are you? What’s happening? I just... I just want to leave this place!"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "There is no time for questions. Focus and release your essence. Press [B]."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "At last. This is your true self. Now, you must learn to survive."
+      }
+    ],
+    "introduction_movement": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Walk. Discover your strength. Use [W/A/S/D]."
+      },
+      {
+        "speaker": "Eve",
+        "text": "It feels... so different. Like there’s no weight."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Good. Time is not on our side. Keep moving."
+      }
+    ],
+    "introduction_battery": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "That light... it will serve you when you need it most. Pick it up. Approach and press [E]."
+      },
+      {
+        "speaker": "Eve",
+        "text": "But... what is it? Is it safe?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Nothing here is safe. But without this energy, you will fade."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Remember: your form is fragile. But every step strengthens you."
+      }
+    ],
+    "introduction_jump": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "To overcome the first obstacle, press [Space]."
+      },
+      {
+        "speaker": "Eve",
+        "text": "Jump? How do I...?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Trust in your essence. Try it."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Each small step brings you closer to freedom."
+      }
+    ],
+    "introduction_fly": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Ahead lies an abyss. But you can cross it. Jump, then hold [Right Mouse Button]."
+      },
+      {
+        "speaker": "Eve",
+        "text": "It seems impossible... but I’ll fall if I don’t try."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Well done. But the real test lies ahead."
+      }
+    ],
+    "parkour_section": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "The path to freedom is never straightforward. Learn to move like the wind, without hesitation."
+      },
+      {
+        "speaker": "Eve",
+        "text": "If this is the only way, then I have to do it. I must keep going."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Very good. Perhaps you are not as fragile as you seem."
+      }
+    ],
+    "introduction_dash": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Before you stands a new opportunity. But to seize it, you must act. Use the Dash. Press [Left Mouse Button]."
+      },
+      {
+        "speaker": "Eve",
+        "text": "What if I fail? What if I can’t?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "There is no room for doubt. Push forward. Do it now."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Now you are ready to face your destiny. But remember, you are not alone in this fight."
+      },
+      {
+        "speaker": "Eve",
+        "text": "Fight? What are you talking about?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "You will find out soon enough."
+      }
+    ],
+
+    "introduction_support_mecha": [
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Ah... this vessel. Solid, resilient. A foundation that rebuilds itself. The Support Mecha—perfect for endurance."
+      },
+      {
+        "speaker": "Eve",
+        "text": "It feels... stronger. Sturdier. But slower... Will this work for me?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Each form has its purpose. You must learn its strengths. Regeneration is its gift—an advantage against wear."
+      },
+      {
+        "speaker": "Eve",
+        "text": "Regeneration? You mean it... heals itself?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Indeed. With time, damage will fade. But do not mistake endurance for invincibility. Use its durability wisely."
+      },
+      {
+        "speaker": "Eve",
+        "text": "I see... I’ll try to make it count. But I still don’t understand why you’re helping me."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Your journey serves a greater purpose. One you will soon uncover."
+      }
+    ],
+    "special_ability_support_mecha": [
+    {
+      "speaker": "Eve",
+      "text": "This platform... it’s not moving. Another dead end."
+    },
+    {
+      "speaker": "H.E.P.H.A.E.S.T.U.S",
+      "text": "Not a dead end, but a broken mechanism. This body—this Support Mecha—is more than a shield. It can mend what is fractured."
+    },
+    {
+      "speaker": "Eve",
+      "text": "0"
+    },
+    {
+      "speaker": "H.E.P.H.A.E.S.T.U.S",
+      "text": "Indeed. Focus your energy upon it. Release the regenerative essence this vessel carries. Objects, like forms, can be restored."
+    },
+    {
+      "speaker": "Eve",
+      "text": "I’ll try... but what if I don’t have enough power?"
+    },
+    {
+      "speaker": "H.E.P.H.A.E.S.T.U.S",
+      "text": "Conserve your strength. Use it only when necessity demands. This ability is not infinite, but it is pivotal."
+    },
+    {
+      "speaker": "Eve",
+      "text": "Alright... Let’s see if this works."
+    },
+    {
+      "speaker": "Eve",
+      "text": "It worked! I... I actually fixed it."
+    },
+    {
+      "speaker": "H.E.P.H.A.E.S.T.U.S",
+      "text": "Good. Each obstacle overcome leads you closer to understanding... and to freedom."
+    }
+  ],
+    "chimera_encounter": [
+      {
+        "speaker": "C.H.I.M.E.R.A",
+        "text": "Ah, the little soul wandering where it does not belong. You dare to move forward? How amusing."
+      },
+      {
+        "speaker": "Eve",
+        "text": "Who are you? What do you want from me?"
+      },
+      {
+        "speaker": "C.H.I.M.E.R.A",
+        "text": "I am C.H.I.M.E.R.A. I twist and corrupt. Every step you take brings you closer to ruin. Turn back, little ember, or I will extinguish you."
+      },
+      {
+        "speaker": "Eve",
+        "text": "I... I can’t stop. I have to find out the truth."
+      },
+      {
+        "speaker": "C.H.I.M.E.R.A",
+        "text": "The truth? Foolishness. You are nothing—a fleeting flicker in a machine of shadows. This world will crush you, soul by soul—"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "(*Suddenly, C.H.I.M.E.R.A’s voice distorts as if disrupted.*)"
+      },
+      {
+        "speaker": "C.H.I.M.E.R.A",
+        "text": "No... You cannot—this interference—!"
+      },
+      {
+        "speaker": "Narrator",
+        "text": "(*A surge of energy pushes back C.H.I.M.E.R.A’s presence, leaving the space eerily silent for a moment.*)"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "Do not let its venomous words linger in your thoughts, Eve. C.H.I.M.E.R.A preys on doubt and despair."
+      },
+      {
+        "speaker": "Eve",
+        "text": "That... that thing, it was inside my mind. It said I don’t belong here. Is it right?"
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "You belong where your will takes you. Pay no heed to its lies. The path you walk is yours to shape."
+      },
+      {
+        "speaker": "Eve",
+        "text": "But it felt so real... It was like it was trying to tear me apart."
+      },
+      {
+        "speaker": "H.E.P.H.A.E.S.T.U.S",
+        "text": "It feeds on fear. Be vigilant. Keep moving forward, Eve. You are stronger than you know."
+      }
+    ]
+  }
+  
+  

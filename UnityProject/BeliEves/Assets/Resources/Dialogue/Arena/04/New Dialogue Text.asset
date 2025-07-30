@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: New Dialogue Text
+  m_EditorClassIdentifier: 
+  speakerName: Efesto [istanza C18]
+  speakerImageReference: {fileID: 0}
+  paragraph:
+  - "There are moments when you will encounter robots that are under the control
+    of C.H.I.M.E.R.A\u2019s influence. These robots, are essentially puppets, their
+    minds twisted and enslaved by the AI\u2019s programming. You cannot simply take
+    control of them as you would with a free unit."
+  - "In these cases, the only way to gain control is through force. You must defeat
+    these robots in combat, breaking through the mental hold C.H.I.M.E.R.A has on
+    them. Once you\u2019ve incapacitated them, you will have the opportunity to reclaim
+    their bodies as your own. The victory is not just physical but also a reclaiming
+    of autonomy from the AI\u2019s grip.\r\n"

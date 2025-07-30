@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5b721e2d84c9597ca679c483d9f17, type: 3}
+  m_Name: New Dialogue Text
+  m_EditorClassIdentifier: 
+  speakerName: Efesto [istanza C18]
+  speakerImageReference: {fileID: 0}
+  paragraph:
+  - 'One more thing, Eve. You can always leave your bionic body to take control of
+    a new one. This is a unique gift, granting you the freedom to adapt to the challenges
+    ahead. However, this choice comes with a cost: once you leave a body, the decision
+    is final. You cannot return to it.'
+  - However, you can always memorize the abilities of a previous robot. By holding
+    down the button, you can store its powers and recall them when needed.
