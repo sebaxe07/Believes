@@ -1,0 +1,31 @@
+name: Unity Test Check
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Unity
+      uses: game-ci/unity-setup@v3
+      with:
+        unityVersion: 2021.3.10f1
+
+    - name: Run EditMode Tests
+      run: |
+        xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
+        unity-editor -projectPath . -quit -batchmode -nographics -runTests -testPlatform EditMode -logFile /dev/stdout
+      continue-on-error: false
+
+    - name: Run PlayMode Tests
+      run: |
+        xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
+        unity-editor -projectPath . -quit -batchmode -nographics -runTests -testPlatform PlayMode -logFile /dev/stdout
+      continue-on-error: false

@@ -1,0 +1,32 @@
+name: Unity Compile Check
+
+on:
+  push:
+    branches:
+      - master  # Adjust this to any branch you want to enforce the check on.
+      - release
+      - beta
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Unity
+      uses: game-ci/unity-actions/setup@v4
+      with:
+        unityVersion: 2022.3.46f1  # Use your specific Unity version here
+
+    - name: Compile the project
+      run: |
+        xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
+        unity-editor -projectPath ./UnityProject/BeliEves -quit -batchmode -nographics -logFile /dev/stdout -buildTarget StandaloneLinux64
+      # This will try to compile the project, and if it fails, the action will mark the push as failed.
+
+    - name: Post logs on failure
+      if: failure()
+      run: |
+        echo "Build failed! Check the logs for more information."
